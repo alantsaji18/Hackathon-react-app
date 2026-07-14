@@ -154,7 +154,7 @@ const AddTeam = () => {
                                     onChange={inputHandler} />
                             </div>
 
-                            <div className="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6-col-xxl-6">
+                            <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12-col-xxl-12">
                                 <label className="form-label">Table No</label>
                                 <input type="text"
                                     className="form-control"
