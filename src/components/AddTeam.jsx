@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import Nav from './Nav'
 
 
 
@@ -43,6 +44,7 @@ const AddTeam = () => {
     }
     return (
         <div>
+            <Nav/>
             <div className="container">
                 <div className="row">
                     <br></br>
