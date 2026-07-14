@@ -20,14 +20,14 @@ const ViewTeam = () => {
         },[]
     )
   return (
-    <div>
-        <Nav/>
+    <div className="container-fluid px-3">
+  <Nav />
 
-            <div className="container mt-4">
-        <h2 className="text-center mb-4">
-          <b>View Team</b>
-        </h2>
-        <table className="table">
+  <h2 className="text-center my-3">View Team</h2>
+
+  <div className="table-wrapper">
+    <div className="table-responsive">
+      <table className="table table-bordered table-hover w-100">
           <thead>
             <tr>
               <th scope="col">Team ID</th>
@@ -73,12 +73,10 @@ const ViewTeam = () => {
                     )}
           </tbody>
              
-          
         </table>
-      </div>
-
-
     </div>
+  </div>
+</div>
   )
 }
 
